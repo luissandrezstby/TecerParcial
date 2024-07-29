@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejemplo de Inputs</title>
+</head>
+<body>
+    <h1>Ejemplo de Inputs de Radio y Checkbox</h1>
+
+    <form id="miFormulario">
+        <fieldset>
+            <legend>Seleccione su tipo de moto favorito:</legend>
+            <input type="radio" id="deportiva" name="moto" value="Deportiva">
+            <label for="deportiva">Deportiva</label><br>
+            <input type="radio" id="cruiser" name="moto" value="Cruiser">
+            <label for="cruiser">Cruiser</label><br>
+            <input type="radio" id="scooter" name="moto" value="Scooter">
+            <label for="scooter">Scooter</label>
+        </fieldset>
+
+        <fieldset>
+            <legend>Seleccione sus colores de moto favoritos:</legend>
+            <input type="checkbox" id="negro" name="color" value="Negro">
+            <label for="negro">Negro</label><br>
+            <input type="checkbox" id="blanco" name="color" value="Blanco">
+            <label for="blanco">Blanco</label><br>
+            <input type="checkbox" id="rojo" name="color" value="Rojo">
+            <label for="rojo">Rojo</label>
+        </fieldset>
+
+        <button type="button" onclick="mostrarSeleccion()">Mostrar Selección</button>
+    </form>
+
+    <div id="resultado"></div>
+
+    <script src="ejercicio7class.js"></script>
+</body>
+</html>
