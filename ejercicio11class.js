@@ -17,7 +17,7 @@ class CuentaBancaria {
 
     retirar(cantidad) {
         if (this.#verificarCantidad(cantidad) && cantidad <= this.#saldo) {
-            this.#saldo -= cantidad; // Corregido para restar la cantidad del saldo
+            this.#saldo -= cantidad;
             return true;
         } else {
             return false;
