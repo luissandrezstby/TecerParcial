@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Producto</title>
+</head>
+<body>
+    <h2>INICIAR COMPRA</h2>
+    <form id="loginForm">
+        <div>
+            <label for="Producto">Producto:</label><br>
+            <input type="text" id="Producto" name="Producto" placeholder="ingrese el Producto"><br><br>
+        </div>
+
+        <div>
+            <label for="Cantidad">Cantidad:</label><br>
+            <input type="number" id="Cantidad" name="Cantidad" placeholder="ingrese la Cantidad"><br><br>
+        </div>
+
+        <div>
+            <label for="Precio">Precio:</label><br>
+            <input type="number" id="Precio" name="Precio" placeholder="ingrese el Precio"><br><br>
+        </div>
+
+        <input type="button" value="Comprar" onclick="validarFormulario()">
+
+        <h1 id="result"></h1>
+    </form>
+
+    <script src="ejercicio13class.js"></script>
+</body>
+</html>
+
